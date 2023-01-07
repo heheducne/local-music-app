@@ -1,0 +1,334 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{3BE01A10-1672-470E-99B1-EF649786A3A8}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>thuc_hanh_3</RootNamespace>
+    <AssemblyName>thuc hanh 3</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="AxWMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>aximp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="WMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DATA\EN\All_We_Know.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Parallel WorldWAV.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DATA\EN\All We Know.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DATA\EN\Bad Habit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DATA\EN\Better Now.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DATA\EN\Bad Habits.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DATA\EN\CBTO.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DATA\EN\comedy.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DATA\EN\Hello.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DATA\EN\Hero.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DATA\EN\immortals.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DATA\EN\Liar.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DATA\EN\make you mine.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DATA\EN\my house.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DATA\EN\new genesis.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DATA\EN\Sorry.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DATA\EN\sunflower.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DATA\EN\there for you.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DATA\EN\EN - Bad Habits - Ed Sheeran.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DATA\EN\EN - Better Now - Post Malone.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DATA\EN\EN - Cake By The Ocean - DNCE.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DATA\EN\EN - Comedy - Gen Hoshino.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DATA\EN\EN - Hero - Cash Cash - Christina Perri.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DATA\EN\EN - Immortals - Fall Out Boy.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DATA\EN\EN - Liar - Camila Cabello.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DATA\EN\EN - Make You Mine - PUBLIC.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DATA\EN\EN - My House - Flo Rida.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DATA\EN\EN - New Genesis  - Uta.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DATA\EN\EN - Sorry - Justin Bieber.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DATA\EN\EN - Sunflower - Post Malone, Swae Lee.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DATA\EN\EN - There For You - Martin Garrix - Troye Sivan.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DATA\EN\EN- Hello - Adele.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DATA\EN\EN-All We Know-The Chainsmokers.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DATA\VN\VN - 25 - TÁO.mp3.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DATA\VN\VN - 3107 - W_n.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DATA\VN\VN - AI BIET - WEAN.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DATA\VN\VN - CHIM SAU - Sony Tran - Hoang Ton - Blacka.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DATA\VN\VN - CUA - HIETHUHAI.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DATA\VN\VN - GIAYPHUT - KIDSAI.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DATA\VN\VN - Gu - Freaky - Seachains.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DATA\VN\VN - HOLD MY HAND - Poll - TDY.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DATA\VN\VN - iceman - SOL7.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DATA\VN\VN - LO CHI - FSRIO.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DATA\VN\VN - NGTANOISE - VSOUL.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DATA\VN\VN - QUERRY - QNT - Trung Trần - RPT MCK.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DATA\VN\VN - Tay To - RPT MCK - RPT PhongKhin.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DATA\VN\VN - THICHTHICH - PHƯƠNG LY.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DATA\VN\VN - tiny love - Thịnh Suy.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DATA\VN\25.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DATA\VN\3107.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DATA\VN\ai biet.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DATA\VN\chim sau.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DATA\VN\cua.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DATA\VN\giayphut.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DATA\VN\gu.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DATA\VN\holdmyhand.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DATA\VN\iceman.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DATA\VN\lochi.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DATA\VN\ngtanoise.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DATA\VN\querry.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DATA\VN\tayto.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DATA\VN\thichthich.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DATA\VN\tiny love.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DATA\hothitvn-img.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DATA\likedsong-img.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DATA\tophitseu-img.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DATA\urplaylist-img.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DATA\viralhit-img.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DATA\PLAY2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DATA\stop.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DATA\EN\EN-All We Know-The Chainsmokers1.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DATA\EN\EN - Bad Habits - Ed Sheeran1.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DATA\EN\EN - Better Now - Post Malone1.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DATA\EN\EN - Cake By The Ocean - DNCE1.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DATA\play3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DATA\heartt.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DATA\unheart.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

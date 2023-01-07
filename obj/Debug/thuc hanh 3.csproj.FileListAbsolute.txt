@@ -1,0 +1,16 @@
+F:\Codes\VS\thuchanh3\bin\Debug\thuc hanh 3.exe.config
+F:\Codes\VS\thuchanh3\bin\Debug\thuc hanh 3.exe
+F:\Codes\VS\thuchanh3\bin\Debug\thuc hanh 3.pdb
+F:\Codes\VS\thuchanh3\bin\Debug\Interop.WMPLib.dll
+F:\Codes\VS\thuchanh3\bin\Debug\AxInterop.WMPLib.dll
+F:\Codes\VS\thuchanh3\obj\Debug\thuc hanh 3.csproj.AssemblyReference.cache
+F:\Codes\VS\thuchanh3\obj\Debug\thuc hanh 3.csproj.SuggestedBindingRedirects.cache
+F:\Codes\VS\thuchanh3\obj\Debug\Interop.WMPLib.dll
+F:\Codes\VS\thuchanh3\obj\Debug\AxInterop.WMPLib.dll
+F:\Codes\VS\thuchanh3\obj\Debug\thuc hanh 3.csproj.ResolveComReference.cache
+F:\Codes\VS\thuchanh3\obj\Debug\thuc_hanh_3.Form1.resources
+F:\Codes\VS\thuchanh3\obj\Debug\thuc_hanh_3.Properties.Resources.resources
+F:\Codes\VS\thuchanh3\obj\Debug\thuc hanh 3.csproj.GenerateResource.cache
+F:\Codes\VS\thuchanh3\obj\Debug\thuc hanh 3.csproj.CoreCompileInputs.cache
+F:\Codes\VS\thuchanh3\obj\Debug\thuc hanh 3.exe
+F:\Codes\VS\thuchanh3\obj\Debug\thuc hanh 3.pdb
